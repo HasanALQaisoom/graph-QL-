@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(to left, #ea4763, #ef8961);
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  width: calc(100% / 3 - 30px);
+  margin: 10px;
+  text-align: center;
+  border: 1px solid black;
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+  border-radius: 10px;
+}
+
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.menu-item h2,
+.menu-item p {
+  margin-left: 55%;
+  margin-right: 10px;
+}
